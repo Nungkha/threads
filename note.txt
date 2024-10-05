@@ -1,0 +1,44 @@
+clerk for User authentication and authorization
+
+@uploadthing/react: React library for handling file uploads in your application.
+mongoose: A popular ODM (Object Data Modeling) library for MongoDB in Node.js.
+svix: Webhook service to send and receive webhooks securely and reliably.
+uploadthing: Likely handles backend file uploads, complementing @uploadthing/react for seamless client-server file management.
+
+
+ROUTE GROUPS 
+In the app directory, nested folders are normally mapped to URL paths. 
+However, you can mark a folder as a Route Group to prevent the folder from being included in the route's URL path.
+
+
+
+Self-Hosting Google Fonts
+The font files (e.g., .woff, .woff2, .ttf) are bundled with your application’s assets and are served from the same domain as your application.
+The browser does not make requests to Google’s servers to fetch the font files. Instead, 
+it retrieves them from your own server. This can be beneficial for privacy and performance reasons, 
+as it avoids potential tracking or latency issues associated with external font requests.
+
+
+
+Variable fonts:
+Traditional way to use fonts required multiple files for variation of fonts like italic, bold etc.
+But, in Variable fonts all variation of fonts are bundled in a single file.
+
+Traditional Fonts vs. Variable Fonts
+Traditional Fonts:
+
+Multiple Files: Each style or weight of a traditional font (e.g., regular, bold, italic) is typically a separate file. For example, you might have Font-Regular.ttf, Font-Bold.ttf, and Font-Italic.ttf.
+Static Variations: Each file is a static, fixed version of the font. This means that if you need to use a different weight or style, you must include a separate file for each variation.
+
+Variable Fonts:
+
+Single File: Variable fonts bundle multiple styles, weights, and other variations into a single file. For instance, a single variable font file might contain regular, bold, italic, and other styles.
+Dynamic Variations: Variable fonts use a single file to define a wide range of styles and weights. You can adjust these variations using CSS properties like font-weight, font-style, font-variation-settings, etc., without needing multiple font files.
+
+
+
+npm install @clerk/themes => for dark themes
+
+shadcn for UI components,
+ZOD
+ Form

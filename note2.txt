@@ -1,0 +1,5 @@
+Day 1:
+
+Implemented Clerk authentication
+Created Home page, Topbar, Leftsidebar, rightsidebar, bottombar
+BottomBar shows same links as Leftsidebar but it is specially used for responisveness in mobile and tablet devices
